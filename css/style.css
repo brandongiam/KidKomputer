@@ -1,0 +1,212 @@
+html {
+	margin:0;
+	padding:0;
+	}
+
+body {
+	font-family: courier;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+h1 {
+	color: white;
+	padding: 10px 25px;
+	margin: 0;
+	}
+
+h3 {
+	text-align: center;
+	color: white;
+	}
+
+p {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	}
+	
+p :first-child {
+	color: red;
+	}
+
+ul {
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin: 0;
+	}
+
+li {
+	color: white;
+	display: inline;
+	padding: 10px;
+	}
+
+img {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+	width: 250px;
+	height: 250px;
+	}
+
+	
+
+
+/* divs, ids, insides */
+
+.header {
+	background: #40003F;
+	}
+
+.header li a {
+	color: white;
+	text-decoration: none;
+	}
+
+.KidKomputer-content {
+	margin-top: 6px;
+	}
+	
+.about {
+	background-color: #F85AFF;
+	width: 319px;
+	height: 300px;
+	margin-top: 1px;
+	margin-right: 1px;
+	float: left;
+	}
+	
+.about h3 {
+	font-size: 25px;
+	}
+
+.about h3 a {
+	color: white;
+	text-decoration: none;
+	}
+
+.about p a {
+	color: black;
+	text-decoration: none;
+	}
+
+.work {
+	background-color: #BA44BF;
+	width: 319px;
+	height: 300px;
+	margin-top: 1px;
+	margin-right: 1px;
+	float: left;
+	}
+
+.work h3 a {
+	color: white;
+	text-decoration: none;
+	}
+
+.work p a {
+	color: black;
+	text-decoration: none;
+	}
+
+
+.art {
+	background-color: #7C2D7F;
+	width: 320px;
+	height: 300px;
+	margin-top: 1px;
+	float: left;
+	}
+
+.art h3 a {
+	color: white;
+	text-decoration: none;
+	}
+
+.art p a {
+	color: black;
+	text-decoration: none;
+	}
+
+.thoughts {
+	background-color: #F89BFF;
+	width: 319px;
+	height: 299px;
+	margin-top: 1px;
+	margin-right: 1px;
+	float: left;
+	}
+
+.thoughts h3 a {
+	color: white;
+	text-decoration: none;
+	}
+
+.thoughts p a {
+	color: black;
+	text-decoration: none;
+	}
+
+.contact {
+	background-color: #E08CE5;
+	width: 319px;
+	height: 299px;
+	margin-top: 1px;
+	margin-right: 1px;
+	float: left;
+	}
+
+.contact h3 a {
+	color: white;
+	text-decoration: none;
+	}
+
+.contact p a {
+	color: black;
+	text-decoration: none;
+	}
+
+.about, .work, .art, .thoughts, .contact {
+	padding-top: 20px;
+	}
+
+.logo {
+	background-color: white;
+	height: 319px;
+	width: 320px;
+	margin-top: 1px;
+	float: left;
+	position: relative;
+	}
+	
+footer {
+	background: #40003F;
+	float: left;
+	width: 960px;
+	margin-top: 6px;
+	}
+	
+footer ul {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6px;
+	}
+	
+footer li {
+	margin-left: 10px;
+	}
+	
+footer p {
+	float: left;
+	color: white;
+	}
+
+
+
+
+
+
+

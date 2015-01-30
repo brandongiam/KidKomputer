@@ -1,0 +1,22 @@
+
+
+.main {
+position: relative;
+top: 25px;
+}
+
+.circle {
+position: absolute;
+left: 270px;
+top: 55px;
+background-color: rgba(255,255,255,0.5);
+border-radius: 50%;
+width: 500px;
+height: 500px; 
+}
+
+.logo {
+position: absolute;
+left: 335px;
+top: 115px;
+}

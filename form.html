@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>KidKomputer Place Order</title>
+		<link rel="stylesheet" type="text/css" href="css/formstyle.css"/>
+	</head>
+	
+	<body>
+		
+		<fieldset class="personalinfo">
+		<legend>Personal Information</legend>
+		<form name="Freelance Work Order">					
+				<p>
+					<label for="firstname">First Name:</label>
+					<input type=text" name="textfirstname">
+				</p>
+				
+				<p>
+					<label for="lastname">Last Name:</label>
+					<input type="text" name="textlastname">
+				</p>
+				
+				<p>
+					<label for="email">Email:</label>
+					<input type="text" name="textemail">
+				</p>
+				
+				<p>
+					<label for="phone">Phone:</label>
+					<input type="text" name="textphone">
+				</p>
+		</fieldset>		
+
+	<p><fieldset class="projectinfo"></p>
+		<legend>Project Information</legend>
+				<p>
+					<label for="worktype">Worktype:</label>
+						<input type="checkbox" name="ckbxwebsite"> Website
+						<input type="checkbox" name="ckbxvideo"> Video/Animation 
+						<input type="checkbox" name="ckbxillustrations"> Print
+				</p>	
+					
+				<p>	
+					<label for="budget size">Budget Size:</label>
+						<input type="radio" name="rdsize" value="$1k-$2500">$1k-$2500
+						<input type="radio" name="rdsize" value="$2k-$5k">$2k-$5k
+						<input type="radio" name="rdsize" value="$5k & Above">$5k & Above
+						<input type="radio" name="rdsize" value="I am a billionaire">I am a billionaire
+				</p>
+				
+				<p>
+					<label for="payment">Payment:</label>
+						<select name="slctpayment">
+							<option>Cash
+							<option>Cheque
+							<option>Credit/Debit Card
+							<option>Paypal
+						</select>
+				</p>
+				
+				<div class="summary">
+					<p>Give us a summary of your project:
+					<br><br><textarea name="summary"></textarea>
+					</p>
+					
+					<p>
+					<input type="reset" value="Submit Order"> <input type="reset" value="Clear Form"> 
+					</p>
+				</div>
+				
+				</form>
+		</fieldset>
+	
+		
+	
+	</body>
+</html>

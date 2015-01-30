@@ -1,0 +1,40 @@
+
+body {
+font-family: courier;
+}
+
+fieldset {
+width: 720px;
+}
+
+.personalinfo label{
+float: left;
+width: 120px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.personalinfo input {
+margin-top: 10px;
+}
+
+.projectinfo label{
+float: left;
+width: 120px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.projectinfo input, select {
+margin-top: 10px;
+}
+
+.summary {
+font-weight: bold;
+margin-top: 30px;
+}
+
+textarea {
+width: 300px; 
+height: 150px;
+}
